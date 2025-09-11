@@ -139,4 +139,83 @@ section {
 }
 
 /* Scrolbar */
+.content-box {
+    position: fixed;
+    left: 28rem;
+    top: 19%;
+    width: 80rem;              /* ukuran sedang */
+    height: 40rem;           /* tinggi tetap */
+    background-color: #f0f0f0; /* abu-abu muda */
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: auto;        /* bikin bisa scroll */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Optional: scrollbar custom */
+.content-box::-webkit-scrollbar {
+    width: 10px;
+}
+
+.content-box::-webkit-scrollbar-thumb {
+    background: #b0b0b0; 
+    border-radius: 5px;
+}
+
+.content-box::-webkit-scrollbar-track {
+    background: #e0e0e0;
+}
+
+
+/* Card Box */
+.card {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 120px;
+    height: 80px;
+    border-radius: 6px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+/* Info */
+.card-info {
+    flex: 1;
+}
+
+.card-info h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.card-info p {
+    font-size: 14px;
+    color: gray;
+}
+
+/* Icon kanan bawah */
+.card-icons {
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;
+    font-size: 18px;
+    color: gray;
+}
+
+
 
