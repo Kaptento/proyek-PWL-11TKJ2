@@ -5,10 +5,14 @@ This platform is designed so that users can create, upload, read, save, and shar
 
 📦 Installation
 
-Clone this repository to your local machine. 
+Clone this repository to your local machine:
 https://github.com/Kaptento/proyek-PWL-11TKJ2.git
 
 Enter the project directory.
+
+No additional dependencies are required since this project only uses HTML and CSS.
+
+Open the Homepage.html file in your preferred browser.
 
 🚀 Usage
 
@@ -32,13 +36,19 @@ Use the search bar at the top to quickly find posts.
 
 Each article is displayed as a card containing the title, thumbnail image, publication info, and interaction icons (favorite, share, user).
 
+On the top-right corner, there are additional features:
+
+Mailbox icon → Access and manage notifications or messages.
+
+User profile icon → Manage user information and account details.
+
 🏗️ Architecture
 
 Project structure:
 
 Homepage.html → Main page.
 
-.css → Website styling and design.
+style.css → Website styling and design.
 
 img/ → Folder for supporting images.
 
@@ -46,7 +56,7 @@ README.md → Project documentation.
 
 Technologies used:
 
-HTML3 → Website content structure.
+HTML5 → Website content structure.
 
 CSS3 → Visual styling and layout.
 
