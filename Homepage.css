@@ -225,5 +225,21 @@ section {
     color: gray;
 }
 
+/* Mailbox */
+.mailbox a img{
+    position: relative;
+    left: 100rem;
+    bottom: 132px;
+    width: 50px;
+    
+}
+
+/* User Account */
+.account a img {
+    position: relative;
+    left: 110rem;
+    bottom: 185px;
+    width: 50px;
+}
 
 
