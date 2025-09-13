@@ -1,6 +1,6 @@
-Blog Spot 📰
+Blogspot 📰
 
-Blog Spot is a simple website that functions as a main forum for its users.
+Blogspot is a simple website that functions as a main forum for its users.
 This platform is designed so that users can create, upload, read, save, and share posts easily. It also includes a search feature at the top of the page to help users quickly find specific articles or information.
 
 📦 Installation
@@ -62,7 +62,7 @@ CSS3 → Visual styling and layout.
 
 🤝 Contributing
 
-We welcome contributions from anyone who wants to improve Blog Spot.
+We welcome contributions from anyone who wants to improve Blogspot.
 Contributions can include bug fixes, adding new features, enhancing documentation, or improving the overall design.
 
 How to Contribute
