@@ -2,7 +2,7 @@
 $host = "localhost";
 $username = "root";
 $password = ""; // Kosongkan jika tidak ada password
-$database = "nama_database";
+$database = "blogger";
 
 // Membuat koneksi
 $conn = mysqli_connect($host, $username, $password, $database);
