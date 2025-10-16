@@ -26,7 +26,11 @@
 
     <!-- Format Buat Login -->
    <div class="container">
-    <form action="">
+    <form action="../../Homepage.html" method="POST">
+         <div class="form-group">
+            <label for="">Name</label>
+            <input type="text" name="name" class="form-control" required>
+        </div>
         <div class="form-group">
             <label for="">Email</label>
             <input type="text" class="form-control" required>
