@@ -48,22 +48,6 @@ h1{
 
 }
 
-/* Mailbox */
-.mailbox a img{
-    position: relative;
-    left: 100rem;
-    bottom: 132px;
-    width: 50px;
-}
-
- /* User Account */
-.account a img {
-    position: relative;
-    left: 110rem;
-    bottom: 185px;
-    width: 50px;
-}
-
 /* sidebar */
 nav ul {
     margin: 0;
@@ -196,6 +180,23 @@ section {
     font-weight: 500;
   }
 
+
+  /* Mailbox */
+.mailbox a img{
+    position: relative;
+    left: 100rem;
+    bottom: 215px;
+    width: 50px;
+    
+}
+
+/* User Account */
+.account a img {
+    position: relative;
+    left: 110rem;
+    bottom: 266px;
+    width: 50px;
+}
 
 
 
