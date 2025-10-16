@@ -1,18 +1,61 @@
 <?php
+ 
 $host = "localhost";
 $username = "root";
-$password = ""; // Kosongkan jika tidak ada password
+$password = "";
 $database = "blogger";
-
-// Membuat koneksi
+ 
 $conn = mysqli_connect($host, $username, $password, $database);
-
-// Memeriksa koneksi
+ 
 if (!$conn) {
     die("Koneksi gagal: " . mysqli_connect_error());
 }
-echo "Koneksi berhasil!";
-
-// Menutup koneksi (opsional, biasanya dilakukan di akhir skrip)
-// mysqli_close($conn);
+ 
+session_start();
+ 
+if (isset($_POST['login'])) {
+    // Ambil inputan user
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+ 
+    // Query untuk mencari user berdasarkan email
+    $query = "SELECT * FROM users WHERE email = ?";
+    $stmt = mysqli_prepare($conn, $query);
+    mysqli_stmt_bind_param($stmt, 's', $email);
+    mysqli_stmt_execute($stmt);
+ 
+    // Ambil hasilnya
+    $result = mysqli_stmt_get_result($stmt);
+    $user = mysqli_fetch_assoc($result);
+ 
+    // Cek apakah pengguna ada
+    if ($user) {
+        // Verifikasi password
+        if (password_verify($password, $user['password'])) {
+            // Jika cocok
+            session_regenerate_id(true);
+            $_SESSION['user'] = $user;
+ 
+            // Redirect ke dashboard
+            header('Location: ../../homepage.html');
+            exit;
+        } else {
+            // Jika password salah
+            echo "
+                <script>
+                    alert('Email atau password salah!');
+                    window.location.href = '../../pages/login/index.php';
+                </script>
+            ";
+        }
+    } else {
+        // Jika pengguna tidak ditemukan
+        echo "
+            <script>
+                alert('Email atau password salah!');
+                window.location.href = '../../pages/login/index.php';
+            </script>
+        ";
+    }
+}
 ?>

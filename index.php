@@ -1,5 +1,5 @@
 <?php
-    header('Location: ./pages/login/login.php');
+    header('Location: ./pages/register/register.php');
     exit;
 
 ?>
