@@ -10,7 +10,7 @@ if (isset($_POST['store'])) {
 
     // Validasi sederhana
     if (empty($name) || empty($email) || empty($password)) {
-        echo "Semua field harus diisi!";
+        echo "<script>alert('Semua field harus diisi!'); history.back();</script>";
         exit();
     }
 
@@ -26,16 +26,18 @@ if (isset($_POST['store'])) {
         $stmt->execute();
 
         if ($stmt->affected_rows > 0) {
-            echo "Registrasi berhasil! Silakan login.";
+            // Redirect ke homepage.html setelah register berhasil
+            header("Location: Homepage.html");
+            exit();
         } else {
-            echo "Gagal registrasi: " . $stmt->error;
+            echo "<script>alert('Gagal registrasi: " . $stmt->error . "'); history.back();</script>";
         }
 
         $stmt->close();
     } else {
-        echo "Gagal menyiapkan query: " . $connection->error;
+        echo "<script>alert('Gagal menyiapkan query: " . $connection->error . "'); history.back();</script>";
     }
 } else {
-    echo "Form belum dikirim!";
+    echo "<script>alert('Form belum dikirim!'); history.back();</script>";
 }
 ?>
