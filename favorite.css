@@ -236,7 +236,7 @@ section {
 
 /* User Account */
 .account a img {
-    position: fixed;
+    position: relative;
     left: 110rem;
     bottom: 185px;
     width: 50px;
