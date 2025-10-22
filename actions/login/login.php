@@ -37,7 +37,7 @@ if (isset($_POST['login'])) {
             $_SESSION['user'] = $user;
  
             // Redirect ke dashboard
-            header('Location: ../../homepage.html');
+            header('Location: ../../pages/homepage.php');
             exit;
         } else {
             // Jika password salah

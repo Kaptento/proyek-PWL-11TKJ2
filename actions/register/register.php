@@ -27,7 +27,7 @@ if (isset($_POST['store'])) {
 
         if ($stmt->affected_rows > 0) {
             // Redirect ke homepage.html setelah register berhasil
-            header("Location: ../../Homepage.html");
+            header("Location: ../../pages/Homepage/Homepage.php");
             exit();
         } else {
             echo "<script>alert('Gagal registrasi: " . $stmt->error . "'); history.back();</script>";
