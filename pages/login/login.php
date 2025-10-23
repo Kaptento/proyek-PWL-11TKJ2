@@ -39,6 +39,7 @@
             <label for="">Password</label>
             <input type="password" class="form-control" required>
         </div>
+        <a href="../register/register.php">Create an account</a>
         <input type="submit" class="btn" value="Login">
     </form>
    </div>
