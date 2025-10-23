@@ -138,6 +138,23 @@ section {
     object-fit: cover; 
 }
 
+  /* Mailbox */
+.mailbox a img{
+    position: relative;
+    left: 100rem;
+    bottom: 213px;
+    width: 50px;
+    
+}
+
+/* User Account */
+.account a img {
+    position: relative ;
+    left: 110rem;
+    bottom: 266px;
+    width: 50px;
+}
+
 /* Statistic */
 .menu-container {
     background-color: #56a7cc;
@@ -181,22 +198,9 @@ section {
   }
 
 
-  /* Mailbox */
-.mailbox a img{
-    position: relative;
-    left: 100rem;
-    bottom: 215px;
-    width: 50px;
-    
-}
 
-/* User Account */
-.account a img {
-    position: relative;
-    left: 110rem;
-    bottom: 266px;
-    width: 50px;
-}
+
+
 
 
 
