@@ -43,7 +43,7 @@
                 <label>Confirm Password</label>
                 <input type="password" name="confirm_password" class="form-control" required>
             </div>
-            <a href="../login/login.php">Already have account?</a>
+            <a href="../login/login.php">Already have account?</a>;
             <button type="submit" name="store" class="btn">Create Account</button>
         </form>
     </div>
