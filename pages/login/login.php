@@ -26,7 +26,7 @@
 
     <!-- Format Buat Login -->
    <div class="container">
-    <form action="../../Homepage.html" method="POST">
+    <form method="POST">
          <div class="form-group">
             <label for="">Name</label>
             <input type="text" name="name" class="form-control" required>
