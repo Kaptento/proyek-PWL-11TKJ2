@@ -140,19 +140,23 @@ section {
 
   /* Mailbox */
 .mailbox a img{
-    position: relative;
+    position: fixed;
     left: 100rem;
-    bottom: 213px;
+    bottom: 870px;
     width: 50px;
+    pointer-events: none;
+    -webkit-user-drag: none;
     
 }
 
 /* User Account */
 .account a img {
-    position: relative ;
+    position: fixed;
     left: 110rem;
-    bottom: 266px;
+    bottom: 870px;
     width: 50px;
+    pointer-events: none;
+    -webkit-user-drag: none;
 }
 
 /* Statistic */
