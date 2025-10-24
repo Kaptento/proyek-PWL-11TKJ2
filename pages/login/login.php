@@ -26,22 +26,18 @@
 
     <!-- Format Buat Login -->
    <div class="container">
-    <form  action="../Homepage/Homepage.php"  method ="POST">
-         <div class="form-group">
-            <label for="">Name</label>
-            <input type="text" name="name" class="form-control" required>
-        </div>
+    <form action="../../actions/login/login.php" method="POST">
         <div class="form-group">
             <label for="">Email</label>
-            <input type="text" class="form-control" required>
+            <input type="text" name="email" class="form-control" required>
         </div>
         <div class="form-group">
             <label for="">Password</label>
-            <input type="password" class="form-control" required>
+            <input type="password" name="password" class="form-control" required>
         </div>
         <a href="../register/register.php">Create an account</a>
-        <input type="submit" class="btn" value="Login">
+        <button type="submit" name="login" class="btn">Login</button>
     </form>
-   </div>
+</div>
 </body>
 </html>

@@ -37,14 +37,14 @@ if (isset($_POST['login'])) {
             $_SESSION['user'] = $user;
  
             // Redirect ke dashboard
-            header('Location: ../../pages/homepage.php');
+            header('Location: ../../pages/Homepage/homepage.php');
             exit;
         } else {
             // Jika password salah
             echo "
                 <script>
                     alert('Email atau password salah!');
-                    window.location.href = '../../pages/login/index.php';
+                    window.location.href = '../../pages/login/login.php';
                 </script>
             ";
         }
@@ -53,7 +53,7 @@ if (isset($_POST['login'])) {
         echo "
             <script>
                 alert('Email atau password salah!');
-                window.location.href = '../../pages/login/index.php';
+                window.location.href = '../../pages/login/login.php';
             </script>
         ";
     }
