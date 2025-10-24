@@ -26,7 +26,7 @@
 
     <!-- Format Buat Login -->
    <div class="container">
-    <form method="POST">
+    <form  action="../Homepage/Homepage.php"  method ="POST">
          <div class="form-group">
             <label for="">Name</label>
             <input type="text" name="name" class="form-control" required>
