@@ -49,6 +49,26 @@ h1{
 }
 
 /* sidebar */
+.add-post a {
+    background-color: white;
+    color: #2d6d8b;
+    font-weight: bold;
+    border-radius: 12px;
+    margin: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    transition: 0.3s;
+    font-size: 16px;
+    text-transform: none;
+}
+
+.add-post a:hover {
+    background-color: #eaf7ff;
+    color: #1b5a73;
+}
+
 nav ul {
     margin: 0;
     padding: 0;
@@ -165,7 +185,6 @@ section {
 .content-box::-webkit-scrollbar-track {
     background: #e0e0e0;
 }
-
 
 /* Card Box */
 .card {
