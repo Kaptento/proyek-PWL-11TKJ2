@@ -260,8 +260,17 @@ section {
     width: 50px;
 }
 
-
-
+a {
+  border: 10px solid black;
+  padding: 5px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+  background-color: rgb(0, 0, 0);
+  transition: 0.3s;
+  margin-left: 20px;
+}
 
 
 
