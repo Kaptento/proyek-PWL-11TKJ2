@@ -4,7 +4,7 @@ require_once "../../config/db-connection.php";
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     // Ambil input dan escape
-    $author  = mysqli_real_escape_string($connection, $_POST['id']);
+    // $author  = mysqli_real_escape_string($connection, $_POST['id']);
     $title   = mysqli_real_escape_string($connection, $_POST['title']);
     $content = mysqli_real_escape_string($connection, $_POST['content']);
 
