@@ -161,7 +161,7 @@ session_start();
     
 <!-- User Account -->
  <div class="account">
-    <a href=""><img src="/foto/material-symbols--person.png" alt=""></a> 
+    <a href="../../actions/logout/logout.php"><img src="/foto/material-symbols--person.png" alt=""></a> 
     <!-- ../../actions/logout/logout.php -->
  </div>
 
