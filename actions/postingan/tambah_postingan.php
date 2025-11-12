@@ -1,4 +1,8 @@
 <?php
+session_start();
+
+$user_id = $_SESSION['user']['id'];
+
 require_once "../../config/db-connection.php";
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
@@ -22,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 
     // Simpan postingan ke database
-    $sql = "INSERT INTO posts (title, content) VALUES ('$title', '$content')";
+    $sql = "INSERT INTO posts (title, content, user_id) VALUES ('$title', '$content', '$user_id')";
 
     if(mysqli_query($connection, $sql)){
         echo "Postingan berhasil disimpan!";

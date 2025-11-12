@@ -3,3 +3,6 @@
     exit;
 
 ?>  
+
+<!-- pages/Homepage/Homepage.php -->
+ <!-- pages/postingan/tambah_postingan -->

@@ -36,6 +36,9 @@
         <div class="card-info">
             <h3>KASUS PENYELUNDUPAN NARKOBA DI KOTA LOS ANGELES AMERIKA SERIKAT SEMAKIN MARAK...</h3>
             <p>Dipublikasikan ...</p>
+            
+
+
         </div>
         <div class="card-icons">
             <i class="fa fa-bookmark"></i>
@@ -46,15 +49,7 @@
     </div>
     </div> 
 
-<!-- Mailbox -->
-<div class="mailbox">
-    <a href="#"><img src="/foto/material-symbols--mail.png" alt=""></a>
-</div>
-    
-<!-- User Account -->
- <div class="account">
-    <a href="#"><img src="/foto/material-symbols--person.png" alt=""></a>
- </div>
 
 </body>
 </html>
+<!-- ../../pages/postingan/tambah_postingan.php -->

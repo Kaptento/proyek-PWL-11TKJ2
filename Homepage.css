@@ -243,21 +243,23 @@ section {
     color: gold;
 }
 
-/* Mailbox */
+/* Mailbox, ini ada berubah , ak tambah top */
 .mailbox a img{
     position: relative;
     left: 100rem;
     bottom: 132px;
     width: 50px;
+    top: -100px ;
     
 }
 
-/* User Account */
+/* User Account ini juga */
 .account a img {
     position: relative;
     left: 110rem;
-    bottom: 185px;
+    bottom: 132px;
     width: 50px;
+    top: -152px;
 }
 
 

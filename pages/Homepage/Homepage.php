@@ -129,16 +129,6 @@
 
 
 
-<!-- Mailbox -->
-<div class="mailbox">
-    <a href="#"><img src="/foto/material-symbols--mail.png" alt=""></a>
-</div>
-    
-<!-- User Account -->
- <div class="account">
-    <a href="../../actions/logout/logout.php"><img src="/foto/material-symbols--person.png" alt=""></a> 
-    <!-- ../../actions/logout/logout.php -->
- </div>
 
 </body>
 </html>
