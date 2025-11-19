@@ -17,7 +17,7 @@
         <!-- <label>Nama Pembuat:</label><br>
         <input type="text" name="id" required><br><br> -->
 
-        <label>Gambar (opsional):</label><br>
+        <label>Gambar:</label><br>
         <input type="file" name="gambar" accept="image/*"><br><br>
 
         <label>Isi Postingan:</label><br>
