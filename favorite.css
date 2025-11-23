@@ -247,7 +247,7 @@ section {
 .mailbox a img{
     position: relative;
     left: 100rem;
-    bottom: 132px;
+    bottom: 100px;
     width: 50px;
     
 }
@@ -256,6 +256,6 @@ section {
 .account a img {
     position: relative;
     left: 110rem;
-    bottom: 185px;
+    bottom: 152px;
     width: 50px;
 }
