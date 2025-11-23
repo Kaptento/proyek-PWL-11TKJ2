@@ -96,6 +96,7 @@ You are free to use, modify, and redistribute this project as long as proper cre
 Our main feature is posting, which can be done by logged-in users on our website. Other features, which non-logged-in users can only view on the main page.
 The entities used in our database are in the users table.
 Attributes (Columns) of the Users Entity
+
 1.id
 -Type: Integer
 -Primary Key
