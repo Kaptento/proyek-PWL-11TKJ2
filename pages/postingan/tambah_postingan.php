@@ -11,7 +11,7 @@
     <div class="main-container">
 
         <header class="top-bar">
-            <a href="#" class="back-button">
+            <a href="postingan.php">
                 <span style="font-size: 1.2em;">&lt;</span> Kembali
             </a>
             

@@ -25,6 +25,25 @@ $result = mysqli_query($connection, "SELECT * FROM posts ORDER BY id DESC");
                 <input class="search-input" type="search" placeholder="Search">
             </div>
         </form>
+        <div style="display: flex; justify-content: flex-end; width: 95%; margin: 10px auto;">
+    <a href="tambah_postingan.php" 
+       style="
+            background-color: #54A7CF;
+            color: white;
+            padding: 16px 60px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 17px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-right: 300px;
+            margin-top: 20px;
+       ">
+        <i class="fa fa-plus"></i> Tambah Postingan
+    </a>
+        </div>
+
     </h1>
 
     <!-- Sidebar -->
