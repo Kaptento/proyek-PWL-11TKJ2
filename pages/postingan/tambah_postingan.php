@@ -4,28 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Posting</title>
+    <link rel="stylesheet" href="../../tambah_postingan.css"> 
 </head>
 <body>
 
-    <h2>Tambah Postingan</h2>
+    <div class="main-container">
 
-    <form action="../../actions/postingan/tambah_postingan.php" method="post" enctype="multipart/form-data">
+        <header class="top-bar">
+            <a href="#" class="back-button">
+                <span style="font-size: 1.2em;">&lt;</span> Kembali
+            </a>
+            
+        </header>
 
-        <label>Judul:</label><br>
-        <input type="text" name="title" required><br><br>
+        <div class="form-wrapper">
+            <form action="../../actions/postingan/tambah_postingan.php" method="post" enctype="multipart/form-data">
+                
+                <input type="hidden" name="id" value="ID_PENGGUNA_AKTIF"> 
 
-        <!-- <label>Nama Pembuat:</label><br>
-        <input type="text" name="id" required><br><br> -->
+                <div class="content-area">
+                    
+                    <div class="image-upload-area">
+                        <div class="upload-placeholder">
+                            Unggah Gambar
+                        </div>
+                        <input type="file" name="gambar" accept="image/*" class="file-input">
+                    </div>
 
-        <label>Gambar:</label><br>
-        <input type="file" name="gambar" accept="image/*"><br><br>
+                    <div class="text-input-area">
+                        
+                        <div class="input-group">
+                            <input type="text" name="title" required placeholder="Judul...">
+                        </div>
 
-        <label>Isi Postingan:</label><br>
-        <textarea name="content" rows="8" cols="50" required></textarea><br><br>
+                        <div class="input-group content-group">
+                            <textarea name="content" required placeholder="Isi berita..."></textarea>
+                        </div>
+                    </div>
+                </div>
 
-        <button type="submit">Submit</button>
+                <div class="button-area">
+                    <button type="submit" class="submit-button">Unggah Postingan</button>
+                </div>
 
-    </form>
+            </form>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const placeholder = document.querySelector('.upload-placeholder');
+            const fileInput = document.querySelector('.file-input');
+            
+            if (placeholder && fileInput) {
+                placeholder.addEventListener('click', () => {
+                    fileInput.click();
+                });
+            }
+        });
+    </script>
 
 </body>
 </html>
