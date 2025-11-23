@@ -14,13 +14,13 @@ body {
 /* Container Utama (Bingkai Putih) */
 .main-container {
     width: 90%;
-    max-width: 800px;
+    max-width: 5000px;
     background-color: #ffffff;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
-    padding-bottom: 20px;
+    padding-bottom: 150px;
 }
 
 /* Header/Top Bar (Seperti di Gambar) */
@@ -129,10 +129,11 @@ textarea {
     background-color: #54A7CF; /* Warna biru */
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 20px 50px;
+    font-size: 20px;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: 10px;
 }
 
 /* Sembunyikan label dan input file yang lama (jika menggunakan HTML asli) */
