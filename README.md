@@ -123,6 +123,7 @@ Attributes (Columns) of the Users Entity
 
 Entities used in our database are in the posts table.
 Attributes (Columns) of the Posts Entity:
+.
 1.id
 -Type: Integer
 -Primary Key
