@@ -6,7 +6,7 @@ body {
 h1{
     background-color: #EEF1F4;
     height: 100px;
-    margin-top: -20px;
+    margin-top: -128px;
     margin-left: 247px;
     width: 1700px;
 }
@@ -243,13 +243,14 @@ section {
     color: gold;
 }
 
+
 /* Mailbox, ini ada berubah , ak tambah top */
 .mailbox a img{
     position: relative;
     left: 100rem;
     bottom: 132px;
     width: 50px;
-    top: -100px ;
+    top: -522px ;
     
 }
 
@@ -259,10 +260,8 @@ section {
     left: 110rem;
     bottom: 132px;
     width: 50px;
-    top: -152px;
+    top: -575px;
 }
-
-
 
 
 

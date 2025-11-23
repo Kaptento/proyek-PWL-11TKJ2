@@ -24,42 +24,53 @@
     <div style="width: 100%; max-width: 900px; background: #ffffff; padding: 20px; box-sizing: border-box;">
 
         <!-- ITEM 1 -->
-        <div style="background: #e6e6e6; padding: 12px; border-radius: 8px; margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center; cursor:pointer;">
+        <div style="background: #e6e6e6; padding: 25px; border-radius: 8px; margin-bottom: 14px; margin-left: 300px; margin-right: -900px; display: flex; justify-content: space-between; align-items: center; cursor:pointer;">
             <div style="display: flex; align-items: center; gap: 10px;">
-                <span>👤</span>
-                <span>Pengaturan akun</span>
+                <span style="font-size: 26px;">👤</span>
+                <span style="font-size: 26px;">Pengaturan akun</span>
             </div>
-            <span>›</span>
+            <span style="font-size: 26px;">›</span>
         </div>
 
         <!-- ITEM 2 -->
-        <div style="background: #e6e6e6; padding: 12px; border-radius: 8px; margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center; cursor:pointer;">
+        <div style="background: #e6e6e6; padding: 25px; border-radius: 8px; margin-bottom: 14px; margin-left: 300px; margin-right: -900px; display: flex; justify-content: space-between; align-items: center; cursor:pointer;">
             <div style="display: flex; align-items: center; gap: 10px;">
-                <span>🛡️</span>
-                <span>Kebijakan dan privasi</span>
+                <span style="font-size: 26px;">🛡️</span>
+                <span style="font-size: 26px;">Kebijakan dan privasi</span>
             </div>
-            <span>›</span>
+            <span style="font-size: 26px;">›</span>
         </div>
 
         <!-- ITEM 3 -->
-        <div style="background: #e6e6e6; padding: 12px; border-radius: 8px; margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center; cursor:pointer;">
+        <div style="background: #e6e6e6; padding: 25px; border-radius: 8px; margin-bottom: 14px; margin-left: 300px; margin-right: -900px; display: flex; justify-content: space-between; align-items: center; cursor:pointer;">
             <div style="display: flex; align-items: center; gap: 10px;">
-                <span>💬</span>
-                <span>Komentar publik dan saran</span>
+                <span style="font-size: 26px;">💬</span>
+                <span style="font-size: 26px;">Komentar publik dan saran</span>
             </div>
-            <span>›</span>
+            <span style="font-size: 26px;">›</span>
         </div>
 
         <!-- ITEM 4 -->
-        <div style="background: #e6e6e6; padding: 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; cursor:pointer;">
+        <div style="background: #e6e6e6; padding: 25px; border-radius: 8px; display: flex; margin-left: 300px; margin-right: -900px; justify-content: space-between; align-items: center; cursor:pointer;">
             <div style="display: flex; align-items: center; gap: 10px;">
-                <span>ℹ️</span>
-                <span>Tentang Kami</span>
+                <span style="font-size: 26px;">ℹ️</span>
+                <span style="font-size: 26px;">Tentang Kami</span>
             </div>
-            <span>›</span>
+            <span style="font-size: 26px;">›</span>
         </div>
 
     </div>
+
+    <div class="mailbox">
+    <a href="#"><img src="/foto/material-symbols--mail.png" alt=""></a>
+</div>
+    
+<!-- User Account -->
+ <div class="account">
+    <a href="#"><img src="/foto/material-symbols--person.png" alt=""></a>
+ </div>
+
+
 
 </body>
 </html>
