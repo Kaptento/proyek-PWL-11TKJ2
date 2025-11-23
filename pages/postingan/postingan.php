@@ -53,34 +53,38 @@ $result = mysqli_query($connection, "SELECT * FROM posts ORDER BY id DESC");
                 <div class="card-info">
                     <h3><?= htmlspecialchars($row['title']) ?></h3>
                     <p><?= nl2br(htmlspecialchars(substr($row['content'], 0, 120))) ?>...</p>
+
+                    <!--  TOMBOL LIHAT SELENGKAPNYA (menuju halaman lain) -->
+                    <a href="detail.php?id=<?= $row['id'] ?>" class="lihat-btn">
+                        Lihat selengkapnya
+                    </a>
                 </div>
 
                 <div class="card-icons">
 
-    <!-- Bookmark -->
-    <a href="#" class="icon-btn">
-        <i class="fa fa-bookmark"></i>
-    </a>
+                    <!-- Bookmark -->
+                    <a href="#" class="icon-btn">
+                        <i class="fa fa-bookmark"></i>
+                    </a>
 
-    <!-- Share -->
-    <a href="#" class="icon-btn">
-        <i class="fa fa-share-alt"></i>
-    </a>
+                    <!-- Share -->
+                    <a href="#" class="icon-btn">
+                        <i class="fa fa-share-alt"></i>
+                    </a>
 
-    <!-- EDIT (pakai signal) -->
-    <a href="edit_postingan.php?id=<?= $row['id'] ?>" class="icon-btn">
-        <i class="fa-solid fa-signal"></i>
-    </a>
+                    <!-- EDIT (pakai signal) -->
+                    <a href="edit_postingan.php?id=<?= $row['id'] ?>" class="icon-btn">
+                        <i class="fa-solid fa-signal"></i>
+                    </a>
 
-    <!-- HAPUS -->
-    <a href="../../actions/postingan/hapus_postingan.php?id=<?= $row['id'] ?>" 
-       class="icon-btn"
-       onclick="return confirm('Yakin mau hapus postingan ini?')">
-        <i class="fa-solid fa-trash"></i>
-    </a>
+                    <!-- HAPUS -->
+                    <a href="../../actions/postingan/hapus_postingan.php?id=<?= $row['id'] ?>" 
+                       class="icon-btn"
+                       onclick="return confirm('Yakin mau hapus postingan ini?')">
+                        <i class="fa-solid fa-trash"></i>
+                    </a>
 
-</div>
-
+                </div>
 
             </div>
         <?php endwhile; ?>
